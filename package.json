@@ -1,0 +1,36 @@
+{
+  "name": "oscillator-oscillator",
+  "version": "1.0.0",
+  "description": "Oscillate your Web Audio API Oscillators with Oscillators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bullgit/oscillator-oscillator.git"
+  },
+  "keywords": [
+    "web",
+    "audio",
+    "api",
+    "vue.js"
+  ],
+  "author": "Lea Rosema",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/bullgit/oscillator-oscillator/issues"
+  },
+  "homepage": "https://github.com/bullgit/oscillator-oscillator#readme",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.9.7",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
